@@ -1,0 +1,15 @@
+Define average_brightness, arguments: picture
+
+    set the relative w/h to picture dimensions
+    if the picture is excessively large
+        scale the picture by 50%
+        set the relative w/h to 50%
+
+    set the total brightness to 0.
+    for each pixel in the picture
+        calculate the brightness of pixel
+        add that calculated brightness to total
+
+    find the total number of pixels using relative w/h
+    calculate the average brightness
+    return that value as a float

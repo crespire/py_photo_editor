@@ -1,0 +1,17 @@
+For our project we have three enhancements: 
+
+1. Resize:  A function imagescale() which adjusts the size of the 
+picture.  This is a fairly common/important feature to have in image 
+manipulation editor.  The scrollbar ability also helps heighten the user 
+interction with the program.
+
+2. Undo function() that converts the picture to the previous look.  Note, 
+you cannot "undo" when you have just loaded the picture because you have not
+done anything to the picture.
+
+3. Mouse-click interaction:  For our crop function we decided to implement a 
+click ability where the user loads a picture, clicks crop, and clicks on two 
+points on the picture (x1,y1) and (x2,y2).  This was extremely 
+important and interactive ability in image editors, hence, we wanted the same 
+performance.  We could have simply asked the user to enter random points in a 
+dialog box, but we thought this was unamusing, simple, and uninteractive.
